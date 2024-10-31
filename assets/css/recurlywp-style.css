@@ -1,0 +1,634 @@
+.recurly-error {
+    background: #f44336;
+    color: #fff;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#success_order_message {
+    visibility: hidden;
+}
+table.recurlywp-table {
+    width: 100%;
+}
+.recurlywp-login-form {background: #fff;border-radius: 8px;}
+.recurly_tabs_content article {
+    position: relative;
+}
+span.plan_info_m {
+    display: block;
+    font-size: 14px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+div#recurly_tabs_block {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.recurlywp-status {
+    background: #607d8b;
+    color: #fff;
+    padding: 4px 15px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+div#check-steps-block {
+    padding-top: 50px;
+}
+table.recurlywp-table {
+    font-size: 16px;
+}
+
+.recurly-state-active {
+    background: #4caf50;
+}
+
+a.recurlywp-cancel {
+    color: #f44336;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+table.recurlywp-table td {
+    padding: 15px;
+}
+
+table.recurlywp-table th {
+    padding-bottom: 9px;
+}
+span#pay_n_recurly {
+    padding: 14px;
+    font-size: 19px;
+    font-weight: 600;
+}
+span.interval-length {
+    display: block;
+    font-size: 12px;
+}
+table.recurlywp-checkout-review-order-table td {
+    border-left: 0;
+    border-right: 0;
+}
+.response-recurly.response-error {
+    background: #f44336;
+    color: #fff;
+    padding: 14px;
+    margin-bottom: 13px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.recurlywp-input-container label {
+    display: block;
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+}
+span#pay_n_recurly {
+    margin-top: 25px;
+}
+a.recurlywp-change {
+    display: block;
+}
+
+a.recurlywp-change {
+    color: #607d8b;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.recurly-input {
+    width: 100%;
+    border: 1px solid #b1b1b1 !important;
+    height: 50px !important;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+    display: block;
+    padding-left: 10px !important;
+    border-radius: 3px;
+}
+
+.recurlywp-input-container input#wp-submit {
+    width: 100%;
+    padding: 15px;
+    background: #742f7e;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 5px auto !important;
+    display: block;
+    transition: all 0.5s;
+    border-radius: 4px;
+}
+
+.recurlywp-login-form {
+    max-width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 8px 60px 0 rgb(117 117 117 / 11%), 0 12px 90px 0 rgb(117 117 117 / 11%);
+    padding: 20px;
+}
+.recurlywp-input-container input#wp-submit:hover {
+    transition: all 0.5s;
+    background: #5a2666;
+}
+
+
+/* Recurly Overide */
+.check-steps-outer {
+    background: #fff;
+}
+
+.check-steps-outer .container {
+    max-width: 100% !important;
+    width: 100%;
+    padding-top: 0 !important;
+}
+
+.check-steps-outer form.steps {
+    width: 100%;
+    padding-top: 0 !important;
+}
+
+.steps fieldset {
+    margin-top: 40px;
+    border-top-color: #742f7e;
+}
+
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #742f7e;
+    border-color: #55215d;
+}
+
+h2.fs-title {
+    color: #131313;
+}
+
+.check-steps-outer .form-group label {
+    font-size: 16px;
+    color: #141414;
+}
+
+#progressbar li:before {
+    color: #742f7e;
+    border-color: #742f7e;
+}
+.check-steps-outer .form-group .form-control, .card-js input {
+    font-size: 16px;
+}
+
+.check-steps-outer .steps fieldset {
+    box-shadow: 0 8px 60px 0 rgb(117 117 117 / 11%), 0 12px 90px 0 rgb(117 117 117 / 11%) !important;
+}
+
+/* Recurly Dashboard */
+
+#recurly_tabs_block{
+    margin:0 auto;
+    display: block;
+    overflow:hidden;
+}
+#recurly_tabs_block ul{
+   display: block;
+   float: left;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+   overflow: hidden;
+}
+#recurly_tabs_block li{
+    margin-bottom: 1px;
+   text-align: left;
+   padding: 0px;
+}
+
+#recurly_tabs_block li:last-child{
+   margin-bottom: 0px;
+  border-bottom: 0px;
+}
+#recurly_tabs_block li a{
+   display: block;
+   color: #fff;
+   text-decoration: none;
+   background: #742f7e;
+}
+
+ul.recurly_inner_tabs li a {
+    font-size: 15px;
+}
+#recurly_tabs_block li a.selected{
+   background: #efefef;
+   color: #000;
+}
+ul.recurly_inner_tabs li a:hover {
+    transition: all 0.5s;
+    opacity: 0.7;
+}
+.check-steps-outer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#recurly_tabs_block .recurly_tabs_content{
+   display: block;
+   float: left;
+   background: #efefef;
+
+   min-height: 260px;
+   padding: 10px 3% 3% 3%;
+}
+.row.plr-40.account-sub-block {
+    margin-bottom: 60px;
+}
+.recurly_tabs_content h3 {
+    background: #fff;
+    padding: 23px;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.text-align-center {
+    text-align: center;
+}
+
+input.previous.action-button {
+    float: none;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+#recurly_tabs_block div article{
+   display: none;
+   margin: 0px;
+   color: #000;
+   font-size:18px;
+   
+}
+.recurlywp-error {
+    background: #f44336;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    font-size: 16px;
+}
+#recurly_tabs_block div article p{
+   margin: 0px 0px 20px 0px;
+}
+ul.recurly_inner_tabs {
+    width: 20%;
+}
+#recurly_tabs_block li a {
+    transition: all 0.5s;
+}
+
+.recurly_tabs_content {
+    width: 80%;
+}
+
+#recurly_tabs_block {
+    max-width: 1200px;
+}
+ul.recurly_inner_tabs li a {
+    padding: 16px;
+}
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+.recurly-ui-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255 255 255 / 58%);
+    z-index: 999999;
+}
+
+.check-steps-outer {
+    position: relative;
+}
+.recurly-ui-block {
+    display: none;
+}
+.lds-ellipsis div {
+    background: #742f7e;
+}
+
+.lds-ellipsis {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+/* Popup */
+
+/* Icons */
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  fill: currentcolor;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: 1.333;
+  text-rendering: optimizeLegibility;
+}
+
+/**
+ * recurlywp-modals ($recurlywp-modals)
+ */
+
+/* 1. Ensure this sits above everything when visible */
+.recurlywp-modal {
+    position: absolute;
+    z-index: 10000; /* 1 */
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.recurlywp-modal.is-visible {
+    visibility: visible;
+}
+
+.recurlywp-recurlywp-modal-overlay {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+
+.recurlywp-modal.is-visible .recurlywp-recurlywp-modal-overlay {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.recurlywp-recurlywp-modal-wrapper {
+  position: absolute;
+  z-index: 9999;
+  top: 6em;
+  left: 50%;
+  width: 32em;
+  margin-left: -16em;
+  background-color: #fff;
+  box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+}
+
+.recurlywp-recurlywp-modal-transition {
+  transition: all 0.3s 0.12s;
+  transform: translateY(-10%);
+  opacity: 0;
+}
+
+.recurlywp-modal.is-visible .recurlywp-recurlywp-modal-transition {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.recurlywp-recurlywp-modal-header,
+.recurlywp-recurlywp-modal-content {
+  padding: 1em;
+}
+
+.recurlywp-recurlywp-modal-header {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.recurlywp-recurlywp-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  color: #aaa;
+  background: none;
+  border: 0;
+}
+
+.recurlywp-recurlywp-modal-close:hover {
+  color: #777;
+}
+
+.recurlywp-recurlywp-modal-heading {
+  font-size: 1.125em;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.recurlywp-recurlywp-modal-content > *:first-child {
+  margin-top: 0;
+}
+
+.recurlywp-recurlywp-modal-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.recurlywp-modal {
+    background: rgb(0 0 0 / 48%);
+    z-index: 999999;
+    position: fixed;
+}
+
+.recurlywp-modal-wrapper.recurlywp-modal-transition {
+    background: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 45%);
+    border-radius: 5px;
+}
+
+h2.recurlywp-modal-heading {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+path.path1 {}
+
+button.recurlywp-modal-close.recurlywp-modal-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #742f7e;
+    color: #fff;
+    border: 0;
+    padding: 6px 14px;
+    border-radius: 0 5px 0 0;
+}
+
+button.recurlywp-modal-close.recurlywp-modal-toggle svg.icon-close.icon {
+    width: 11px;
+    height: 11px;
+}
+
+h2.recurlywp-modal-heading {
+    padding-top: 25px;
+    padding-bottom: 14px;
+}
+
+input.recurlywp-form-field {
+    display: block;
+    width: 100%;
+    height: 44px;
+    margin-bottom: 15px;
+}
+.account-details-update span.error1 {
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
+.account-details-update span.error1 {
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
+
+input#update_account_details {
+    background: #742f7e;
+    color: #fff;
+    border: 0;
+    padding: 12px 40px;
+    border-radius: 5px;
+    float: right;
+    transition: all 0.5s;
+}
+
+input#update_account_details:hover {
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+label.recurlywp-label {
+    font-size: 15px;
+    font-weight: 600;
+}
+.account-details-update form#recurly_form {
+    width: 100%;
+    padding: 0;
+}
+
+.account-details-update fieldset {
+    background: transparent;
+    box-shadow: none !important;
+    border: 0;
+    padding-top: 0;
+}
+
+input.recurly-form-submit {
+    background: #742f7e;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    padding: 15px;
+}
+.response-recurly.response-success {
+    background: #4caf50;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+}
+.update_subscription_block {
+    max-width: 400px;
+    margin: 0 auto;
+}
+span#update_recurly {
+    margin-top: 15px;
+    padding: 15px;
+    font-size: 17px;
+}
+.card_update_process {
+    display: none;
+}
+.update_subscription_iner {
+    padding-bottom: 37px;
+}
+
+input.recurly-form-submit {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.recurlywp-form-group {}
